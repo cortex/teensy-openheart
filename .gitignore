@@ -1,17 +1,10 @@
-# Object files
+*.hex
+*.eep
+*.elf
+*.lss
+*.lst
+*.map
 *.o
-
-# Libraries
-*.lib
-*.a
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
+*.sym
+.dep
+teensy_loader_cli/teensy_loader_cli
