@@ -64,7 +64,7 @@ int main(void)
 	int j = 0;
 while(1){
 i=0;
-	while(i<100){
+	while(i<50){
 		i++;
 		set(7);
 		set(4);
@@ -81,6 +81,20 @@ i=0;
 		set(6);
 		set(5);
 		set(11);
+		set(1);
+		set(2);
+		set(3);
+		set(8);
+		set(9);
+		set(12);
+		set(13);
+		set(17);
+		set(18);
+		set(19);
+		set(21);
+		set(22);
+		set(24);
+		set(26);
 		
 		for (j=0; j<i; j++)
 			_delay_ms(.1);
